@@ -1,0 +1,48 @@
+.slide {
+	position: relative;
+}
+
+.up {
+	display: inline-flex;
+}
+
+.number {
+	color: #a4a4a4;
+	font-family: 'Nunito-Black';
+	font-size: 250px;
+	font-style: normal;
+	font-weight: 900;
+	line-height: 100%;
+	margin: 13px 98px 109px 33px;
+}
+
+.description {
+	margin-top: 52px;
+}
+
+.description h5 {
+	font-size: 26px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	margin-bottom: 28px;
+}
+
+.description span {
+	font-size: 17px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+}
+
+.down {
+	position: absolute;
+	bottom: 10px;
+	left: 33px;
+	color: #a4a4a4;
+	font-family: 'Nunito-Black';
+	font-size: 128px;
+	font-style: normal;
+	font-weight: 900;
+	line-height: 100%; /* 128px */
+}

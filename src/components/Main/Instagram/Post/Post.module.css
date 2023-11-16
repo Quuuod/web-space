@@ -1,0 +1,37 @@
+.container {
+	text-align: center;
+	width: 288px;
+	height: 288px;
+}
+.container .imgContainer {
+	display: inline-block;
+	font-size: 0;
+	position: relative;
+}
+
+.img {
+	width: 100%;
+	height: 100%;
+}
+
+.container .text {
+	display: flex;
+
+	align-items: center;
+	position: absolute;
+	z-index: 2;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background: rgba(0, 0, 0, 0.5);
+	opacity: 0;
+	transition: opacity 0.5s;
+}
+
+.container .imgContainer:hover .text {
+	opacity: 1;
+	color: #fff;
+	font-size: 20px;
+	padding: 10px 0 0;
+}

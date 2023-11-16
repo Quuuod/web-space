@@ -1,0 +1,134 @@
+.feedback {
+	width: 600px;
+	height: 372px;
+	position: absolute;
+	bottom: 16%;
+	right: 18%;
+	background: #fff;
+}
+.container {
+	position: relative;
+	height: 100%;
+	padding: 30px 45px;
+}
+.title {
+	margin-bottom: 44px;
+	color: rgba(0, 0, 0, 0.4);
+	font-family: Nunito;
+	font-size: 40px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.input {
+	color: rgba(0, 0, 0, 0.5);
+	font-family: Nunito;
+	font-size: 17px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 140%;
+	margin-bottom: 24px;
+	outline: none;
+	border: none;
+	padding: 25px 40px;
+	width: 450px;
+	height: 24px;
+	background: #d9d9d9;
+}
+
+.input::placeholder {
+	color: rgba(0, 0, 0, 0.5);
+	font-family: Nunito;
+	font-size: 17px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 140%;
+	transition: all 0.4s ease;
+}
+
+.input:focus::placeholder {
+	color: rgba(0, 0, 0, 0.2);
+}
+
+.checkbox {
+	visibility: hidden;
+	width: 0;
+}
+
+.text {
+	margin-left: 56px;
+	color: rgba(0, 0, 0, 0.5);
+	font-family: Nunito;
+	font-size: 17px;
+	height: 100%;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 140%; /* 23.8px */
+}
+
+.agreement {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	width: 450px;
+}
+
+.inputContainer {
+	height: 56px;
+	width: 0;
+	display: flex;
+	justify-content: center;
+}
+
+.checkMark {
+	position: absolute;
+	z-index: 1;
+}
+
+.marker {
+	position: absolute;
+	top: 3px;
+	left: 0;
+}
+.checkbox + label {
+	opacity: 0;
+}
+.checkbox:checked + label {
+	opacity: 1;
+}
+
+.send {
+	cursor: pointer;
+	display: flex;
+	position: absolute;
+	left: 0;
+	justify-content: center;
+	align-items: center;
+	width: 354px;
+	height: 76px;
+	margin-left: 326px;
+	background: #000513;
+	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+	transition: all 0.4s ease;
+}
+
+.send:hover {
+	background: #001141;
+}
+
+.send:active {
+	background: #001a63;
+	transition: all 0.1s ease;
+}
+
+.sendText {
+	margin-left: 30px;
+	color: #fff;
+	font-family: Nunito;
+	font-size: 21px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: 200%; /* 42px */
+}

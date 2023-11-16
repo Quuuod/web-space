@@ -1,0 +1,10 @@
+.main {
+	flex: 1 0 auto;
+	color: black;
+}
+
+.container {
+	min-width: 100%;
+	padding-top: 100px;
+	margin: 0 auto;
+}
